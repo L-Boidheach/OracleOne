@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Amigo Secreto</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Amigo Secreto</h1>
+    </header>
+    <main>
+        <div id="left">
+            <h2>Digite o nome dos seus amigos</h2>
+            <p>Envie sua lista de nomes e organize seu amigo secreto de forma rápida e justa. Perfeito para deixar a brincadeira ainda mais divertida e sem complicações. Experimente agora!</p>
+        </div>
+        <div id="right">
+            <p id="fstp">Total de nomes a serem sorteados</p> <input type="number" name="txtnum" id="txtnum">
+            <p>Lista de nomes separados por <strong>vírgula</strong></p>
+            <input type="text" name="txtnames" id="txtnames">
+            <br>
+            <button id="main_btn" onclick="MainBtn()">Sortear Amigo</button>
+            <div id="res"></div>
+        </div>
+    </main>
 </body>
 </html>
