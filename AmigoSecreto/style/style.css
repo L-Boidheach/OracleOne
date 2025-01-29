@@ -7,7 +7,7 @@
 html, body {
     height: 100%;
     margin: 0;
-    overflow: hidden; 
+     
 }
 
 header {
@@ -113,4 +113,14 @@ main {
 
 #right #trash:hover{
     background-color: #3f57d4;
+}
+
+#lista_btn{
+    width: 30%;
+    padding: 10px;
+    background-color: #4B69FC;
+    color: #FFF9EB;
+    border: none;
+    font-size: 1.2vw;
+    border-radius: 5px;
 }
