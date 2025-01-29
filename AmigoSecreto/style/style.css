@@ -1,19 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap');
 
-*{
+* {
     font-family: 'Reem Kufi', serif;
 }
 
 html, body {
     height: 100%;
     margin: 0;
-     
 }
 
 header {
     background-color: #4B69FC;
     padding: 30px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 header h1 {
@@ -25,43 +24,42 @@ header h1 {
 
 main {
     display: flex;
-    height: calc(100% - 60px); 
+    min-height: calc(100% - 60px); 
     width: 100%;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 #left {
     width: 50%;
-    height: 100%; 
     padding: 20px;
     background-color: #FFF9EB;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     border-right: 1px solid black;
+    display: flex;
+    flex-direction: column; 
 }
 
 #left h2 {
-
     color: #4B69FC;
     font-size: 3.8vw;
 }
 
 #left p {
     margin-top: 15px;
-    font-size: 1.7vw; 
+    font-size: 1.7vw;
     font-weight: 500;
 }
 
 #right {
     width: 50%;
-    height: 100%; 
-    box-sizing: border-box; 
     padding: 20px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     font-size: 1.5vw;
 }
 
-#right #txtnum{
+#right #txtnum {
     width: 60%;
     padding: 10px;
     background-color: #FFF9EB;
@@ -70,7 +68,7 @@ main {
     border-radius: 5px;
 }
 
-#right #txtnames{
+#right #txtnames {
     width: 60%;
     padding: 10px;
     background-color: #FFF9EB;
@@ -79,12 +77,12 @@ main {
     border-radius: 5px;
 }
 
-#right #button_container{
+#right #button_container {
     display: flex;
-    gap: 10px; 
+    gap: 10px;
 }
 
-#right #main_btn{
+#right #main_btn {
     width: 30%;
     padding: 10px;
     background-color: #4B69FC;
@@ -94,15 +92,15 @@ main {
     border-radius: 5px;
 }
 
-#right #main_btn:hover{
+#right #main_btn:hover {
     background-color: #3f57d4;
 }
 
 #right #fstp {
-    width: 100%; 
+    width: 100%;
 }
 
-#right #trash{
+#right #trash {
     width: 5%;
     padding: 5px;
     background-color: #4B69FC;
@@ -111,11 +109,39 @@ main {
     border-radius: 5px;
 }
 
-#right #trash:hover{
+#right #trash:hover {
     background-color: #3f57d4;
 }
 
-#lista_btn{
+#nameList {
+    margin-top: 20px;
+    border: 1px solid #ccc; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#nameList div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee; 
+}
+
+#nameList button {
+    background-color: #4B69FC;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#nameList button:hover {
+    background-color: #3f57d4;
+}
+
+/* #lista_btn{
     width: 30%;
     padding: 10px;
     background-color: #4B69FC;
@@ -123,4 +149,4 @@ main {
     border: none;
     font-size: 1.2vw;
     border-radius: 5px;
-}
+} */
