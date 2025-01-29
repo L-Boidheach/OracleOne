@@ -79,6 +79,11 @@ main {
     border-radius: 5px;
 }
 
+#right #button_container{
+    display: flex;
+    gap: 10px; 
+}
+
 #right #main_btn{
     width: 30%;
     padding: 10px;
@@ -95,4 +100,17 @@ main {
 
 #right #fstp {
     width: 100%; 
+}
+
+#right #trash{
+    width: 5%;
+    padding: 5px;
+    background-color: #4B69FC;
+    color: #FFF9EB;
+    border: none;
+    border-radius: 5px;
+}
+
+#right #trash:hover{
+    background-color: #3f57d4;
 }
