@@ -1,20 +1,60 @@
+# 🎁 Challenge Amigo Secreto
 
-## Passo a passo da elaboração do projeto
+_**⬇️ Clique abaixo para acessar a página do projeto.**_
 
-Antes de começar a realmente criar o programa de sorteio, desci realizar algumas pesquisas na internet em sites que ofereciam serviços semelhantes ao que eu pretendia criar. Notei que a maioria deles solicita que os nomes sejam separados por vírgulas, o que, de fato, torna o processo muito mais fácil do que enviar um por um para, em seguida, realizar o sorteio. Com um simples HTML, sem CSS, comecei a testar uma lógica em que isso funcionaria de maneira eficiente.
+<br>
 
-![código html contendo o meu primeiro teste](midiaReadme/teste_um.png)
+![Foto do site](Assets/pagina.png)
 
-![código javascript contendo o meu primeiro teste](midiaReadme/teste_um%20(1).png)
+---
 
-Entretanto, parar na primeira melhoria nunca é a melhor opção. Percebi que tais websites também permitem que o usuário escolha quantos nomes deseja sortear, e eu queria implementar essa funcionalidade. Até agora (pois escrevo conforme meus avanços), essa foi a parte mais difícil. Isso ocorreu porque decidi dissecar outros códigos JavaScript com o mesmo objetivo, ou ao menos semelhantes ao meu, analisando linha por linha com o auxílio de I.A. A solução mais satisfatória que consegui encontrar foi o seguinte código.
+## 📌 Sumário
+- [📖 Sobre o Projeto](#sobre-o-projeto)
+- [🚀 Funcionalidades](#funcionalidades)
+- [🛠 Tecnologias Utilizadas](#tecnologias)
+- [👩‍💻 Desenvolvedora](#desenvolvedora)
 
-![código javascript contendo o meu segundo teste](midiaReadme/teste_um%20(2).png)
+---
 
-Infelizmente, sinto que esta versão pode acabar entrando em um loop infinito. Vou tentar realizar melhorias nela.
+## 📖 Sobre o Projeto <a id="sobre-o-projeto"></a>
 
-___
+O **Challenge Amigo Secreto** foi desenvolvido como parte do desafio da formação **Iniciante em Programação** do **Programa Oracle Next Education**, uma iniciativa da Oracle em parceria com a Alura. O projeto simula um sorteio de Amigo Secreto, permitindo que os usuários adicionem nomes, visualizem a lista e realizem o sorteio de maneira interativa.
 
-Depois de três xícaras de café, recorri ao auxílio de I.A. para me fornecer a solução do erro (realmente estava entrando em um loop infinito). O resultado foi que o erro real em meu código poderia ser resolvido simplesmente adicionando um 'return'. 
+---
 
-![código javascript contendo o meu terceiro teste](midiaReadme/teste_um%20(3).png)
+## 🚀 Funcionalidades <a id="funcionalidades"></a>
+
+✅ **Adicionar nomes**: Usuários podem inserir um nome e adicioná-lo à lista visível ao clicar em "Adicionar".  
+✅ **Validação de entrada**: Um alerta é exibido caso o campo esteja vazio.  
+✅ **Visualização da lista**: Os nomes inseridos aparecem abaixo do campo de entrada.  
+✅ **Sorteio aleatório**: Um nome é sorteado aleatoriamente ao clicar no botão "Sortear Amigo".  
+
+### 🔹 Melhorias Implementadas
+
+- **🚫 Remoção de Nomes Duplicados**: O código identifica e alerta sobre nomes repetidos antes do sorteio.  
+- **🗑 Exibição da Lista com Botão de Exclusão**: Cada nome inserido tem um botão "Delete" para removê-lo individualmente.  
+- **🎉 Animação de Confetes**: Efeito visual de comemoração utilizando a biblioteca `canvas-confetti`.  
+- **⚠️ Mensagens de Validação Detalhadas**: Impede sorteios inválidos (zero, negativos ou maior que a lista).  
+- **🧹 Função "Limpar Lista"**: Um botão que reseta os campos de entrada e a lista de nomes.  
+- **⏎ Execução com "Enter"**: Pressionar "Enter" adiciona automaticamente um novo nome.  
+
+---
+
+## 🛠 Tecnologias Utilizadas <a id="tecnologias"></a>
+
+<div style="display: flex; gap: 10px;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" alt="JavaScript"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" alt="HTML5"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" alt="CSS3"/>
+</div>
+
+---
+
+## 👩‍💻 Desenvolvedora <a id="desenvolvedora"></a>
+
+<a href="https://github.com/L-Boidheach">
+  <img alt="Delina Boidheach" src="https://github.com/L-Boidheach.png" width="110">
+
+**[L-Boidheach](https://github.com/L-Boidheach)**  
+🔗 *Confira mais projetos no GitHub!*
+
